@@ -97,7 +97,6 @@
         .container {
             height: 400px;
             width: 550px;
-            /*background-color: aquamarine;*/
             border-radius: 10px;
             background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
             text-align: center;
@@ -123,6 +122,32 @@
         .select {
             margin-top: -49px;
             margin-left: 29px;
+        }
+        @media (max-width:480px)
+        {
+           body 
+           {
+            background-image: linear-gradient(to right,#34e89e,#0f3443);
+           }
+           .container 
+           {
+            background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+            width: 350px;
+
+           }
+           .prem 
+           {
+            width: 300px;
+            margin-left:20px ;
+           }
+           select.values 
+           {
+              width: 300px;
+           }
+           button
+           {
+            width: 300px;
+           }
         }
     </style>
 </head>
